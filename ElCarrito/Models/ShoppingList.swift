@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct ShoppingList {
+var id: UUID = UUID()
+var name: String
+var items: [ShoppingItem]
+}
+
